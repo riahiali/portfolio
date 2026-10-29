@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ali Riahi – Backend & Full-Stack Engineer</title>
+<meta name="description" content="Ali Riahi: backend and full-stack engineer working on APIs, data pipelines, IoT systems and applied AI integration. Based in Tunisia.">
+<meta property="og:title" content="Ali Riahi – Backend & Full-Stack Engineer"><meta property="og:description" content="APIs, data pipelines, IoT systems and applied AI integration.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E7FA3'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'%3EAR%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+:root{--bg:#f2f5f4;--surface:#fff;--ink:#12202b;--mute:#566574;--line:#d3dcdf;--acc:#0b6f90;--acc-t:#e1f1f6;--code:#e9eef0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1a21;--surface:#16252e;--ink:#e6eef2;--mute:#9db0bc;--line:#2a3d48;--acc:#4cc0e3;--acc-t:#173642;--code:#1b2d37}}
+*{box-sizing:border-box}html{scroll-padding-top:70px;color-scheme:light dark}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Space Grotesk",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:var(--acc)}a:focus-visible,summary:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:20px;align-items:center;flex-wrap:wrap;padding-top:12px;padding-bottom:12px;font-size:15px}
+nav b{font-family:"Space Grotesk";margin-right:auto}nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--acc)}
+.hero{padding:72px 0 48px}
+.hero h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:700;letter-spacing:-.02em}
+.hero .role{font-size:clamp(1.15rem,2.6vw,1.5rem);color:var(--acc);margin:14px 0 18px;font-family:"Space Grotesk"}
+.hero p{max-width:60ch;color:var(--mute);margin:0 0 26px}
+.btn{display:inline-block;padding:11px 20px;border-radius:6px;font-weight:500;text-decoration:none;margin:0 10px 10px 0;border:1px solid var(--acc)}
+.btn.p{background:var(--acc);color:var(--bg)}
+section{padding:46px 0;border-top:1px solid var(--line)}
+h2{font-size:1.9rem;margin-bottom:22px}
+.job{display:grid;grid-template-columns:150px 1fr;gap:6px 24px;margin-bottom:26px}
+.job .d{color:var(--mute);font-size:15px}.job h3{font-size:1.1rem}.job .o{color:var(--acc);font-size:15px;margin-bottom:6px}
+.job ul,.proj ul{margin:6px 0 0;padding-left:20px}li{margin-bottom:3px}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:14px}
+.proj summary{cursor:pointer;padding:18px 20px;list-style:none;display:grid;gap:6px}
+.proj summary::-webkit-details-marker{display:none}
+.proj summary h3{font-size:1.25rem}.proj summary span{color:var(--mute);font-size:15.5px}
+.proj summary::after{content:"Show details";font-size:14px;color:var(--acc)}.proj[open] summary::after{content:"Hide details"}
+.proj .body{padding:0 20px 20px;border-top:1px solid var(--line)}
+.proj h4{margin:16px 0 4px;font:700 15px "Space Grotesk"}
+.tag{display:inline-block;background:var(--acc-t);color:var(--acc);border-radius:4px;padding:1px 9px;font-size:13.5px;margin:0 6px 6px 0}
+.st{font-size:14px;padding:2px 10px;border:1px solid var(--line);border-radius:20px;color:var(--mute);justify-self:start}
+figure{margin:14px 0 0;background:var(--code);border-radius:8px;padding:12px;overflow-x:auto}
+figure svg{min-width:640px;width:100%;height:auto;display:block}figcaption{font-size:13.5px;color:var(--mute);margin-top:6px}
+.note{border-left:4px solid var(--acc);padding:4px 16px;color:var(--mute);margin:0 0 22px}
+.sk{display:grid;grid-template-columns:150px 1fr;gap:8px 24px}.sk dt{font-weight:500}.sk dd{margin:0;color:var(--mute)}
+footer{padding:30px 0 40px;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
+@media (max-width:640px){.job,.sk{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:in .7s ease both}@keyframes in{from{opacity:0;transform:translateY(8px)}}}
+</style></head><body>
+<nav><div class="wrap"><b>Ali Riahi</b><a href="#projects">Projects</a><a href="#ai">AI work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+<main>
+<header class="wrap hero">
+<h1>Ali Riahi</h1>
+<div class="role">Backend and full-stack engineer: data systems, IoT, applied AI</div>
+<p>I build APIs, data pipelines and connected-device software, and I wire existing AI models into them. My experience spans banking (UIB, Linedata), automotive validation (Capgemini Engineering on a BMW project) and embedded firmware (Wattnow). I’m currently studying Software Engineering and Data Engineering at ESPRIT in Tunis.</p>
+<a class="btn p" href="#projects">See projects</a><a class="btn" href="resume_en.pdf" download>Download résumé (PDF)</a>
+</header>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<p class="note">Every claim below comes from the code and documentation in my public GitHub repositories (github.com/riahiali). Status labels say what exists, not what is planned. No screenshots are shown because none of the apps was run for this page.</p>
+
+<details class="proj"><summary><h3>Nexor: smart lock platform</h3><span>Mobile app, backend API and ESP32 firmware for a Bluetooth smart lock.</span><span class="st">In development · repos: nexor-application, nexorFW</span></summary><div class="body">
+<h4>What it is</h4><p>A React Native app (Expo, TypeScript, Zustand) talks to a lock over Bluetooth LE and to an Express + Prisma + PostgreSQL backend for accounts, invites and activity logs. A WebSocket manager pushes real-time updates.</p>
+<h4>Firmware</h4><p>PlatformIO project for ESP32 using NimBLE, with separate modules for BLE, motor, proximity sensor, RTC, power, error log and Wi-Fi OTA.</p>
+<h4>Security design</h4><p>The repo includes a written BLE protocol spec: ECDH P-256 pairing, AES-256-GCM encrypted commands, HMAC on each packet and replay protection. The backend has rate limiting, CSRF and HMAC-verification middleware.</p>
+<h4>AI</h4><p>None. This project has no AI component.</p>
+<span class="tag">React Native</span><span class="tag">Express</span><span class="tag">Prisma</span><span class="tag">PostgreSQL</span><span class="tag">ESP32</span><span class="tag">BLE</span>
+</div></details>
+
+<details class="proj"><summary><h3>Document data extraction pipeline</h3><span>Upload a PDF, get names, dates, organizations, amounts and IBAN-like strings back.</span><span class="st">Working prototype in code · repo: UIB</span></summary><div class="body">
+<h4>How it works</h4><p>A Next.js front end uploads a PDF to an Express API. The API queues a job with Bull on Redis. A worker starts a Python script that reads the PDF and runs spaCy named-entity recognition plus regular expressions. Results are stored in PostgreSQL and shown in a dashboard.</p>
+<h4>Honest scope</h4><p>It uses spaCy’s pre-trained <code>en_core_web_sm</code> model, not a model I trained, and not an LLM. The amount and IBAN patterns are rough regexes.</p>
+<span class="tag">Next.js</span><span class="tag">Express</span><span class="tag">Bull / Redis</span><span class="tag">PostgreSQL</span><span class="tag">Python</span><span class="tag">spaCy</span>
+</div></details>
+
+<details class="proj"><summary><h3>TradLingo: document translation app</h3><span>French, English and Arabic translation of administrative documents.</span><span class="st">Working app with tests · repo: tradlingo · team project</span></summary><div class="body">
+<h4>How it works</h4><p>A Streamlit app calls the Hugging Face Inference API with Helsinki-NLP translation models. French↔Arabic goes through English. Users sign in with accounts stored in SQLite, with PBKDF2-SHA256 hashed passwords. Results are cached in memory.</p>
+<h4>Reliability</h4><p>Timeouts, 401/403, 429 quota errors and unsupported languages each raise a clear error. The API key comes from <code>.env</code>. Tests use mocks, so they pass without a key. Ruff and Bandit are in the requirements.</p>
+<span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Hugging Face API</span><span class="tag">SQLite</span><span class="tag">pytest</span>
+</div></details>
+
+<details class="proj"><summary><h3>Replanto: plant monitoring platform</h3><span>Sensor data over MQTT, stored in MongoDB, shown in a live dashboard.</span><span class="st">Prototype · repo: replanto</span></summary><div class="body">
+<p>A NestJS backend with MQTT ingestion, Mongoose, Socket.IO and a React dashboard using Recharts. The repo includes a simulator script for testing without hardware. It has no AI component.</p>
+<span class="tag">NestJS</span><span class="tag">MQTT</span><span class="tag">MongoDB</span><span class="tag">Socket.IO</span><span class="tag">React</span>
+</div></details>
+
+<details class="proj"><summary><h3>ETL data pipeline</h3><span>CSV in, validated rows in PostgreSQL, with Kafka between stages.</span><span class="st">Prototype · repo: ETL-Data-pipeline-system</span></summary><div class="body">
+<p>Python extract, transform and load modules with Pydantic validation, Tenacity retries and APScheduler. Docker Compose starts Kafka, Zookeeper and Postgres. A small React front end sits beside it.</p>
+<span class="tag">Python</span><span class="tag">Kafka</span><span class="tag">PostgreSQL</span><span class="tag">Pydantic</span><span class="tag">Docker</span>
+</div></details>
+
+<details class="proj"><summary><h3>Filmi: cinema management</h3><span>Microservices for films, screenings, rooms, reservations and payments.</span><span class="st">Academic project · repo: filmi</span></summary><div class="body">
+<p>Separate services behind an API gateway, with Eureka discovery, a config server, Keycloak authentication, RabbitMQ and Kafka messaging, MySQL and Postgres, an Angular front end, plus Postman collections and a written test guide. Everything starts with Docker Compose.</p>
+<span class="tag">Microservices</span><span class="tag">Keycloak</span><span class="tag">RabbitMQ</span><span class="tag">Kafka</span><span class="tag">Angular</span>
+</div></details>
+
+<details class="proj"><summary><h3>Multi-tenant SaaS and e-commerce backends</h3><span>NestJS and Prisma services with JWT auth and relational models.</span><span class="st">Backends in code · repos: Saas-Multi-tenant, e-commerce-backend</span></summary><div class="body">
+<p>The SaaS backend has Tenant, User and AuditLog models, JWT with Passport, bcrypt, Swagger docs and a Next.js front end. The e-commerce backend models users, categories, products, inventory and orders. A separate Fastify prototype (<code>mobile-backend</code>) adds Redis rate limiting, JWT, WebSockets and a k6 load-test script. Its feed endpoint is still a placeholder query.</p>
+<span class="tag">NestJS</span><span class="tag">Prisma</span><span class="tag">Fastify</span><span class="tag">Redis</span><span class="tag">JWT</span>
+</div></details>
+</div></section>
+
+<section id="ai"><div class="wrap">
+<h2>How I integrate AI</h2>
+<p>In the repositories I reviewed, AI is used in two ways: a pre-trained NLP library (spaCy) and a hosted translation API (Hugging Face). I call and wrap models. I don’t train or research them. I found no local LLM or LLM-API code in the repositories I could access.</p>
+<figure><svg viewBox="0 0 700 120" role="img" aria-label="Pipeline: browser to API to queue to worker to spaCy extractor to PostgreSQL"><g font-family="IBM Plex Sans,sans-serif" font-size="13" fill="currentColor" stroke="currentColor"><g fill="none" stroke-width="1.3"><rect x="6" y="38" width="100" height="44" rx="6"/><rect x="132" y="38" width="100" height="44" rx="6"/><rect x="258" y="38" width="100" height="44" rx="6"/><rect x="384" y="38" width="100" height="44" rx="6"/><rect x="510" y="38" width="90" height="44" rx="6"/><rect x="620" y="38" width="76" height="44" rx="6"/></g><g stroke-width="1.3"><path d="M106 60h26M232 60h26M358 60h26M484 60h26M600 60h20"/></g><g stroke="none" text-anchor="middle"><text x="56" y="64">Next.js UI</text><text x="182" y="64">Express API</text><text x="308" y="64">Bull queue</text><text x="434" y="64">Worker</text><text x="555" y="58">Python</text><text x="555" y="74">spaCy</text><text x="658" y="64">Postgres</text></g></g></svg>
+<figcaption>Document extraction pipeline, drawn from the UIB repository code. Concept diagram of the real flow, not a screenshot.</figcaption></figure>
+<figure><svg viewBox="0 0 700 120" role="img" aria-label="Flow: Streamlit app to translation client to Hugging Face API, with cache and error handling"><g font-family="IBM Plex Sans,sans-serif" font-size="13" fill="currentColor" stroke="currentColor"><g fill="none" stroke-width="1.3"><rect x="6" y="38" width="130" height="44" rx="6"/><rect x="190" y="38" width="150" height="44" rx="6"/><rect x="394" y="38" width="150" height="44" rx="6"/><rect x="190" y="96" width="150" height="20" rx="6"/></g><g stroke-width="1.3"><path d="M136 60h54M340 60h54M265 82v14"/></g><g stroke="none" text-anchor="middle"><text x="71" y="64">Streamlit + login</text><text x="265" y="58">api_client.py</text><text x="265" y="74">FR/AR via EN</text><text x="469" y="58">Hugging Face</text><text x="469" y="74">Helsinki-NLP</text><text x="265" y="110" font-size="11">cache · timeouts · 401/403/429</text></g></g></svg>
+<figcaption>Translation flow, drawn from the tradlingo repository code. The API key stays in a local <code>.env</code> file.</figcaption></figure>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<div class="job"><div class="d">Jun – Sep 2025</div><div><h3>Embedded Software Testing Engineer</h3><div class="o">Capgemini Engineering, BMW project</div><ul><li>Tested and validated ECUs; analyzed CAN Bus signals and system logs for anomalies.</li><li>Tracked anomalies in Jira in an Agile team with software, hardware and validation engineers.</li></ul></div></div>
+<div class="job"><div class="d">Feb – May 2024</div><div><h3>AI & Backend Developer</h3><div class="o">Union Internationale de Banques (UIB)</div><ul><li>Designed an AI solution for automated extraction of financial data, with preprocessing, training and optimization pipelines.</li><li>Built REST APIs with Node.js and Express; used SQL and MySQL for storage and analysis.</li></ul></div></div>
+<div class="job"><div class="d">Summer 2023</div><div><h3>Embedded Software Developer</h3><div class="o">Wattnow</div><ul><li>Wrote C/C++ firmware, integrated sensors, and optimized performance and memory use.</li></ul></div></div>
+<div class="job"><div class="d">Summer 2022</div><div><h3>Software Engineering Intern</h3><div class="o">Linedata</div><ul><li>Contributed to backend development of financial solutions and optimized SQL queries.</li></ul></div></div>
+<div class="job"><div class="d">2023 – present</div><div><h3>Freelance Backend & Full-Stack Developer</h3><ul><li>Multi-tenant SaaS with JWT authentication, scalable REST APIs, ETL pipelines, Docker and CI/CD, PostgreSQL and MongoDB administration.</li></ul></div></div>
+<p style="color:var(--mute);font-size:15px">Education: Engineering Cycle in Software Engineering and Data Engineering, ESPRIT (since November 2024). Licence in Computer Systems Engineering, Embedded Systems and IoT, Faculty of Sciences of Tunis (2024).</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<dl class="sk">
+<dt>Databases</dt><dd>PostgreSQL, MySQL, MongoDB, SQL optimization, data modeling, backup and restore</dd>
+<dt>Backend</dt><dd>Node.js, Express, NestJS, Fastify, Flask, Django, REST, microservices</dd>
+<dt>Languages</dt><dd>Python, JavaScript, TypeScript, Java, PHP, C/C++, SQL</dd>
+<dt>Frontend</dt><dd>React, Next.js, Angular, React Native</dd>
+<dt>Cloud & DevOps</dt><dd>Docker, Kubernetes, AWS, Azure, Jenkins, CI/CD</dd>
+<dt>Applied AI</dt><dd>spaCy NER, Hugging Face Inference API</dd>
+<dt>Hardware / IoT</dt><dd>STM32, ESP32, ESP8266, Arduino, Raspberry Pi, MQTT, BLE</dd>
+<dt>Tools</dt><dd>Git, Jira, Confluence</dd>
+</dl></div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Contact</h2>
+<p><a href="mailto:ali.riahi8522@gmail.com">ali.riahi8522@gmail.com</a><br><a href="https://www.linkedin.com/in/ali-riahi-iot" rel="noopener noreferrer">LinkedIn</a><br><a href="https://github.com/riahiali" rel="noopener noreferrer">GitHub</a><br><a href="resume_en.pdf" download>English résumé (PDF)</a></p>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Ali Riahi. Languages: Arabic (native), English (C1), French (C1), German (A2).</div></footer>
+</body></html>
